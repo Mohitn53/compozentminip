@@ -1,0 +1,124 @@
+*{
+    margin:0px;
+    padding: 0%;
+}
+#nav{
+    background-color: transparent;
+    height: 50px;
+    width: auto;
+    min-width: 30px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+    margin-top: 30px;
+    color: white;
+    font-size: 5vmin;
+    margin-left: 30px;
+    background-image: url();
+}
+#suggestion{
+
+
+    margin-right: 30px;
+
+}
+#but{
+  
+ 
+    
+}
+#slogan{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-top:20vmin;
+    font-size: 5vmin;
+    color: aliceblue;
+}
+#content{
+    margin-top: 10vmin ;
+    margin-left: 20vmin;
+    padding: 10px;
+    height: 120vmin;
+    width: 140vmin;
+    flex-wrap: wrap;
+    gap: 5vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#html{
+    background-image: url(pngegg.png); 
+    background-size: cover;
+    height:40vmin ;
+    width: 40vmin;
+
+}
+#html:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+#css{
+    background-image: url(cssnew.png); 
+    background-size: cover;
+    height:40vmin ;
+    width: 40vmin;
+}
+#css:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+  }
+#javascript{
+    background-image: url(pngegg\ \(1\).png); 
+    background-size: cover;
+    height:40vmin ;
+    width: 40vmin;
+}
+#javascript:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+#java{
+    background-image: url(java.png); 
+    background-size: cover;
+    height:40vmin ;
+    width: 40vmin;
+    
+}
+#java:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+#cp{
+    background-image: url(c.png); 
+    background-size: cover;
+    height:40vmin ;
+    width: 40vmin;
+  
+}
+#cp:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+#python{
+    background-image: url(python.png); 
+    background-size: cover;
+    height:40vmin ;
+    width: 40vmin;
+
+}
+#python:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }

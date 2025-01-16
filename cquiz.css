@@ -1,0 +1,62 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(wp3831604-galaxy-space-wallpapers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.quiz-container {
+    background: rgba(0, 0, 0, 0.7); 
+    padding: 20px;
+    max-width: 500px;
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: white;
+}
+
+.options button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: aliceblue;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.options button:hover {
+    background-color: #e0e0e0;
+}
+
+.options button.correct {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.options button.wrong {
+    background-color: #f44336;
+    color: white;
+}
+
+.options button:disabled {
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+#score {
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+}
